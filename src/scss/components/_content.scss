@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+justify-content: space-around;
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+}
