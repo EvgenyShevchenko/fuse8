@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fuse8/static/css/main.02446d57.chunk.css",
+    "main.js": "/fuse8/static/js/main.f45e8b99.chunk.js",
+    "main.js.map": "/fuse8/static/js/main.f45e8b99.chunk.js.map",
+    "runtime-main.js": "/fuse8/static/js/runtime-main.4cfd3e6f.js",
+    "runtime-main.js.map": "/fuse8/static/js/runtime-main.4cfd3e6f.js.map",
+    "static/js/2.4d444239.chunk.js": "/fuse8/static/js/2.4d444239.chunk.js",
+    "static/js/2.4d444239.chunk.js.map": "/fuse8/static/js/2.4d444239.chunk.js.map",
+    "index.html": "/fuse8/index.html",
+    "static/css/main.02446d57.chunk.css.map": "/fuse8/static/css/main.02446d57.chunk.css.map",
+    "static/js/2.4d444239.chunk.js.LICENSE.txt": "/fuse8/static/js/2.4d444239.chunk.js.LICENSE.txt",
+    "static/media/app.scss": "/fuse8/static/media/OpenSans-Regular.1b0809d5.ttf",
+    "static/media/home1.84da3f6a.png": "/fuse8/static/media/home1.84da3f6a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4cfd3e6f.js",
+    "static/js/2.4d444239.chunk.js",
+    "static/css/main.02446d57.chunk.css",
+    "static/js/main.f45e8b99.chunk.js"
+  ]
+}
