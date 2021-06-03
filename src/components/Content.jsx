@@ -7,8 +7,10 @@ function Content({term}) {
     const [homes, setHomes] = useState([]);
 
     useEffect(() => {
-        axios.get('https://603e38c548171b0017b2ecf7.mockapi.io/homes').then(({data}) => {
+        axios.get('https://603e38c548171b0017b2ecf7.mockapi.io/homs').then(({data}) => {
             setHomes(data)
+        }).catch(() => {
+            console.log('server error')
         });
     }, [])
 
