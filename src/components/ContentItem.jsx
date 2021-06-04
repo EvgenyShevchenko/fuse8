@@ -3,6 +3,7 @@ import homeImg from "../assets/img/home1.png"
 import classNames from 'classnames';
 
 function ContentItem({id, title, address, type, price}) {
+    const label = type.replace(/([a-z])([A-Z])/g, '$1 $2');
 
     return (
         <a href={id}>
@@ -15,7 +16,7 @@ function ContentItem({id, title, address, type, price}) {
                             "content-item__type--blue": type === 'IndependentLiving',
                             "content-item__type--orange": type === 'SupportAvailable'
                         }
-                    )}>{type}</div>
+                    )}>{label}</div>
                 </div>
                 <div className="content-text__wrapper">
                     <h2 className="content-item__title">{title}</h2>

@@ -37,12 +37,16 @@
 
 .content-text__wrapper {
   padding: 20px;
+  overflow:hidden;
+  white-space: pre-wrap;
 }
 
 .content-item__title {
   font-weight: bold;
   font-size: 20px;
   line-height: 27px;
+  max-width: 300px;
+
 }
 
 .content-item__address {
