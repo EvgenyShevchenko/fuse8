@@ -43,7 +43,7 @@
 
 .content-item__title {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 27px;
   max-width: 300px;
 
@@ -57,6 +57,11 @@
 
 .content-item__price-desc {
   margin-bottom: 7px;
+}
+
+.content-item__price{
+  margin-left: 5px;
+  font-weight: bold;
 }
 
 .content-item__shared {

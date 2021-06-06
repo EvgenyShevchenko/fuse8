@@ -4,6 +4,8 @@ import classNames from 'classnames';
 
 function ContentItem({id, title, address, type, price}) {
     const label = type.replace(/([a-z])([A-Z])/g, '$1 $2');
+    const formatPrice = price.toLocaleString('en-GB', {style: 'currency', currency: 'GBP'})
+
 
     return (
         <a href={id}>
@@ -23,7 +25,7 @@ function ContentItem({id, title, address, type, price}) {
                     <p className="content-item__address">{address}</p>
                     <p className="content-item__price-desc">
                         New Properties for Sale from
-                        <span><b> £{price}</b></span>
+                        <span className="content-item__price">{formatPrice}</span>
                     </p>
                     <p className="content-item__shared">
                         Shared Ownership Available
